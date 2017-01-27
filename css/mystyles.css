@@ -78,6 +78,14 @@ a {
   width: 20%;
 }
 
+.mic-image-421 {
+  text-align: center;
+}
+
+.mic-image-421 img {
+  width: 40%;
+}
+
 .hero-text {
   text-align: center;
   background-image: url("../assets/kid.png");
