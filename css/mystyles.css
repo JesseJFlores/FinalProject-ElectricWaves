@@ -1,3 +1,25 @@
+body {
+  font-family: "ff-enzo-web",sans-serif;
+}
+
+body.home {
+  padding-top: 50px;
+}
+
+a {
+  color: black;
+}
+
+/*.navbar {
+  margin: 0;
+}*/
+
+.btn-primary {
+    color: #fff;
+    background-color: #777;
+    border-color: #777;
+}
+
 .container-list {
   margin: 0 auto;
   text-align: center;
@@ -7,10 +29,6 @@
 .container-list li {
   list-style: none;
   font-size: 25px;
-}
-
-.resources-footer {
-  margin-left: 100px;
 }
 
 .container-landingpage {
@@ -34,6 +52,41 @@
   text-align: center;
 }
 
-.feedback-container {
-  margin: 0 auto;
+.video-content h2 {
+  font-style: italic;
+}
+
+.video-content p {
+  font-size: 25px;
+}
+
+.hero-index {
+  text-align: center;
+  background-image: url("..assets/hero.jpg") cover;
+}
+
+.hero-image img {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.mic-image {
+  text-align: center;
+}
+
+.mic-image img {
+  width: 20%;
+}
+
+.hero-text {
+  text-align: center;
+  background-image: url("../assets/kid.png");
+  background-size: cover;
+  padding-top: 240px;
+  padding-bottom: 240px;
+}
+
+.hero-text h1 {
+  font-weight: bold;
+  color: white;
 }
