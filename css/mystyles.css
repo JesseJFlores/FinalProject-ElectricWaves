@@ -138,6 +138,7 @@ span {
     background-image: url("../assets/faders-mobile.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 150px;
   }
   .icon img {
     width: 25%;
