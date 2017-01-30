@@ -25,7 +25,7 @@ a {
 
 .container-list li {
   list-style: none;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .container-landingpage {
@@ -47,6 +47,10 @@ a {
 
 .container-feedback-header {
   text-align: center;
+}
+
+.video-content {
+  text-align: left;
 }
 
 .video-content h2 {
