@@ -93,11 +93,12 @@ a {
 
 .hero-text {
   text-align: center;
-  background-image: url("../assets/kid.png");
+  background-image: url("../assets/faders.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 240px;
-  padding-bottom: 240px;
+  padding-top: 60px;
+  padding-bottom: 200px;
+  margin-bottom: 10px;
 }
 
 .hero-text h1 {
@@ -105,8 +106,36 @@ a {
   color: white;
 }
 
+.icon {
+  text-align: center;
+}
+
+.icon img {
+  width: 15%;
+}
+
+span {
+  color: #F7061D;
+}
+
+.first-video {
+  margin-top: 10px;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: black;
+    border-color: #F7061D;
+}
+
 @media (max-width: 900px) {
   .hero-text {
-    display: none;
+    text-align: center;
+    background-image: url("../assets/faders-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .icon img {
+    width: 25%;
   }
 }
