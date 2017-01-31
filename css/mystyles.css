@@ -26,6 +26,12 @@ a:focus, a:hover {
     text-decoration: underline;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #FF4367;
+    border-color: #FF4367;
+}
+
 .btn-primary.focus, .btn-primary:focus {
     color: #fff;
     background-color: #222222;
@@ -36,12 +42,6 @@ h1, h2, h3 {
   font-family: "ff-enzo-web",sans-serif;
   font-weight: bold;
   }
-
-.btn-primary {
-    color: #fff;
-    background-color: #777;
-    border-color: #777;
-}
 
 .container-list {
   margin: 0 auto;
@@ -145,8 +145,12 @@ h1, h2, h3 {
   width: 15%;
 }
 
-span {
+hero-text.span {
   color: #FF4367;
+}
+
+span {
+  color: white;
 }
 
 .first-video {
@@ -155,8 +159,8 @@ span {
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #222222;
-    border-color: #F7061D;
+    background-color: #D8355B;
+    border-color: #D8355B;
 }
 
 @media (max-width: 900px) {
