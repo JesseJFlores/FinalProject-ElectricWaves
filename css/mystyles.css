@@ -29,7 +29,7 @@ a:focus, a:hover {
 .btn-primary.focus, .btn-primary:focus {
     color: #fff;
     background-color: #222222;
-    border-color: #F7061D;
+    border-color: #FF4367;
 }
 
 h1, h2, h3 {
@@ -81,6 +81,7 @@ h1, h2, h3 {
 
 .video-content h2 {
   font-style: italic;
+  font-weight: normal;
 }
 
 .video-content p {
@@ -145,7 +146,7 @@ h1, h2, h3 {
 }
 
 span {
-  color: #F7061D;
+  color: #FF4367;
 }
 
 .first-video {
