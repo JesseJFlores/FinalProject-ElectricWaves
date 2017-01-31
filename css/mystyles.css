@@ -12,6 +12,15 @@ a {
   color: #222222;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+     text-decoration: underline;
+    background-color: #eee;
+}
+
 a:focus, a:hover {
     color: #222222;
     text-decoration: underline;
