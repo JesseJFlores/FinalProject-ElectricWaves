@@ -1,5 +1,6 @@
 body {
   font-family: "ff-enzo-web",sans-serif;
+  color: #222222;
 }
 
 body.home {
@@ -8,8 +9,18 @@ body.home {
 }
 
 a {
-  color: black;
+  color: #222222;
 }
+
+a:focus, a:hover {
+    color: #222222;
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+  font-family: "ff-enzo-web",sans-serif;
+  font-weight: bold;
+  }
 
 .btn-primary {
     color: #fff;
@@ -128,7 +139,7 @@ span {
 
 .btn-primary:hover {
     color: #fff;
-    background-color: black;
+    background-color: #222222;
     border-color: #F7061D;
 }
 
