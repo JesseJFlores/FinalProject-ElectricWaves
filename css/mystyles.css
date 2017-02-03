@@ -12,6 +12,15 @@ a {
   color: #222222;
 }
 
+.body-text p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.body-text h4 {
+  line-height: 1.8;
+}
+
 .navbar-inverse .navbar-nav>li>a {
     color: white;
 }
@@ -85,7 +94,8 @@ h1, h2, h3 {
 }
 
 .video-content p {
-  font-size: 25px;
+  font-size: 23px;
+  line-height: 1.8;
 }
 
 .hero-index {
