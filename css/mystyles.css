@@ -173,6 +173,10 @@ span {
     border-color: #D8355B;
 }
 
+.video-img img {
+  width: 100%;
+}
+
 @media (max-width: 900px) {
   .hero-text {
     text-align: center;

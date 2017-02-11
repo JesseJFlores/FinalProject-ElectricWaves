@@ -117,5 +117,6 @@ Half size hero images to video page, mic page
 add navigation to bottom of pages with hero images from each page
 re-layout mic page
 change out main icon
+add an "about the author" page
 
 
