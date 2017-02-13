@@ -177,6 +177,10 @@ span {
   width: 100%;
 }
 
+.plugins-img img {
+  width: 100%;
+}
+
 @media (max-width: 900px) {
   .hero-text {
     text-align: center;
